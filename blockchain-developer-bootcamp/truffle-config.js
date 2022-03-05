@@ -2,6 +2,7 @@ require('babel-register');
 require('babel-polyfill');
 require('dotenv').config();
 
+
 module.exports = {
   networks: {
     development: {
@@ -21,3 +22,4 @@ module.exports = {
     }
   }
 }
+
